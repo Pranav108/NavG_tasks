@@ -1,0 +1,45 @@
+body {
+  /* background-color: #e7e7e7; */
+  background-color: #d6d5d5;
+  align-items: center;
+}
+h3 {
+  text-align: center;
+  font-family: "Fredericka the Great", cursive;
+  text-transform: capitalize;
+  color: darkgreen;
+  margin-bottom: 8%;
+}
+div {
+  display: flex;
+  margin: 6%;
+  padding: 3%;
+  border: 10px solid green;
+  border-radius: 25px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  font-family: "Stardos Stencil", cursive;
+  font-size: 25px;
+  border: none;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  color: darkslateblue;
+  padding: 2%;
+  padding-bottom: 4%;
+  padding-left: 10%;
+  /* box-shadow: 3px 3px 5px #80808080, -5px -5px 20px #fafafa75; */
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.5);
+}
+.smthing {
+  display: flex;
+  flex-direction: column;
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.5),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+    inset 10px 10px 15px rgba(70, 70, 70, 0.5);
+  z-index: 1;
+}
